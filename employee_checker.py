@@ -17,7 +17,7 @@ if accept == "yes":
         if name == emp_name:
             print("Thank you " + emp_name + ", you are now checked in.")
             break
-    else:
+    else:  # loop fell through without finding a emp_name matching name.
         print("You're not an employee")
 else:
     print("This service is not for you. Exiting program...")
