@@ -1,4 +1,4 @@
-names = [False, False, False, False, False, ]
+names = [False, True, False, False, False, ]
 
 
 def count_true(lst):
