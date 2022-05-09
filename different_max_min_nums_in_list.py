@@ -1,4 +1,4 @@
-num_list = [10, 4, -50, 2, 8, 91]
+num_list = [10, 4, -1, 2, 8, 91]
 
 
 def difference_max_min(lst):
