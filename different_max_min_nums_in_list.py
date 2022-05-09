@@ -11,8 +11,8 @@ def difference_max_min(lst):
         if x > num_low:
             num_high = x
     num_dif = num_low - num_high
-    print(num_low)
-    print(num_high)
+
+
     print(abs(num_dif))
 
 
