@@ -1,14 +1,13 @@
-num_list = [10, 4, -1, 2, 8, 91]
+num_list = [17, 4, -1, 2, 8, -100]
 
 
 def difference_max_min(lst):
-
-    num_low = num_list[0]
     num_high = num_list[0]
-    for x in lst:
+    num_low = num_list[0]
+    for count, x in enumerate(lst, start=1):
         if x < num_low:
             num_low = x
-        if x > num_low:
+        if x > num_high:
             num_high = x
     num_dif = num_low - num_high
     print(abs(num_dif))
